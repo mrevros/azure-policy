@@ -40,41 +40,10 @@
           {
             "field": "location",
             "in": [
-              "australiacentral",
-              "australiaeast",
-              "australiasoutheast",
-              "brazilsouth",
-              "canadacentral",
-              "canadaeast",
-              "centralindia",
-              "centralus",
-              "eastasia",
-              "eastus2euap",
-              "eastus",
-              "eastus2",
-              "francecentral",
-              "germanywestcentral",
-              "japaneast",
-              "japanwest",
-              "jioindiawest",
-              "koreacentral",
-              "koreasouth",
-              "northcentralus",
-              "northeurope",
-              "norwayeast",
-              "southafricanorth",
-              "southcentralus",
-              "southeastasia",
-              "southindia",
-              "switzerlandnorth",
-              "uaenorth",
+              
               "uksouth",
-              "ukwest",
-              "westcentralus",
-              "westeurope",
-              "westindia",
-              "westus",
-              "westus2"
+              "ukwest"
+        
             ]
           },
           {
