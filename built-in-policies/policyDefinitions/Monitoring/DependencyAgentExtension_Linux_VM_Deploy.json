@@ -69,6 +69,28 @@
                                 ]
                             },
                             {
+                                "allOf":[
+                                    {"field":"Microsoft.Compute/imagePublisher",
+                                     "equals": "Oracle"
+                                    },
+                                    {
+                                        "field":"Microsoft.Compute/imageOffer",
+                                        "in":[
+                                            "Oracle-Linux"
+                                        ]
+                                    },
+                                    {
+                                        "anyof": [
+                                            {
+                                                "field":"Microsoft.Compute/imageSKU",
+                                                "like": "ol83-lvm"
+
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
                                 "allOf": [
                                     {
                                         "field": "Microsoft.Compute/imagePublisher",
@@ -177,7 +199,7 @@
                     }
                 ]
             },
-            "then": {
+            "then" : {
                 "effect": "deployIfNotExists",
                 "details": {
                     "type": "Microsoft.Compute/virtualMachines/extensions",
